@@ -1,9 +1,7 @@
 <template>
   <div id="highlights">
-    <p>Weather Highlights:</p>
-    {{ highlights }}
-    <UVIndex :uvindex="uvindex" />
-    <WindStatus :windstatus="windstatus" />
+    <UVIndex :uvIndex="uvIndex" />
+    <WindStatus :windStatus="windStatus" />
     <Visibility :visibility="visibility" />
   </div>
 </template>
@@ -27,8 +25,8 @@ export default {
   },
   data() {
     return {
-      uvindex: this.highlights.uvindex,
-      windstatus: this.highlights.windstatus,
+      uvIndex: this.highlights.uvIndex,
+      windStatus: this.highlights.windStatus,
       visibility: this.highlights.visibility
     };
   }

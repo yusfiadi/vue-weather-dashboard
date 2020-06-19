@@ -1,14 +1,14 @@
 <template>
-  <div id="uvindex">
-    <p>UV Index: {{ uvindex }}</p>
+  <div id="uvIndex">
+    <p>UV Index: {{ uvIndex }}</p>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    uvindex: {
-      type: String,
+    uvIndex: {
+      type: Number,
       required: true
     }
   }
