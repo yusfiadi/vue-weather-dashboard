@@ -6,13 +6,13 @@
     </ul>
     {{ weatherData }}
     <TempVarChart :tempVar="tempVar" />
-    <TodayHighlights :highlights="hightlights" />
+    <TodayHighlights :highlights="highlights" />
   </div>
 </template>
 
 <script>
 import TempVarChart from "./TempVarChart";
-import Highlights from "./Hightlights";
+import Highlights from "./Highlights";
 export default {
   components: {
     TempVarChart,
