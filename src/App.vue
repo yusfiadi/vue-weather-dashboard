@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <p>This component’s code is in {{ filename }}</p>
-    <Content :weather-data="weatherData"></Content>
+    <Content :weatherData="weatherData"></Content>
   </div>
 </template>
 
 <script>
-import Content from "@/components/Content";
+import Content from "./components/Content";
 export default {
   name: "app",
   components: {
