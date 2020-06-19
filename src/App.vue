@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <p>This component’s code is in {{ filename }}</p>
-    <Content :weatherData="weatherData"></Content>
+    <Content :weatherData="weatherData" />
   </div>
 </template>
 
