@@ -13,9 +13,7 @@ export default {
     }
   },
   data() {
-    return {
-      visibility: this.visibility.toString()
-    };
+    return {};
   }
 };
 </script>
