@@ -7,7 +7,7 @@
         height="100%"
         data-format="json"
         data-empty-message="i-https://i.postimg.cc/R0QCk9vV/Rolling-0-9s-99px.gif"
-        data-empty-message-image-scale="39"
+        :data-empty-message-image-scale="39"
         :datasource="tempChartData"
       ></fusioncharts>
     </div>
