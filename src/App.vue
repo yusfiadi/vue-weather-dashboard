@@ -114,8 +114,8 @@ export default {
         ]
       },
       highlights: {
-        uvIndex: "",
-        visibility: "",
+        uvIndex: 4,
+        visibility: 20,
         windStatus: {
           windSpeed: "",
           windDirection: "",
