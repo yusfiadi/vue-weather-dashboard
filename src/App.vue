@@ -127,6 +127,14 @@ export default {
   methods: {
     //Utility Methods
 
+    convertToTitleCase: function(str) {
+      str = str.toLowerCase().split(" ");
+      for (var i = 0; i < str.length; i++) {
+        str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+      }
+      return str.join(" ");
+    },
+
     // To format the “possibility” (of weather) string obtained from the weather API
     formatPossibility: function(str) {
       str = str.toLowerCase().split("-");
